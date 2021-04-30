@@ -1,0 +1,299 @@
+.App {
+  text-align: center;
+}
+
+#queryDescription .list-query:nth-of-type(1n+4) {display: none;}
+
+.navbar-brand {
+  font-size: 2vw
+}
+
+.dropdown-item {
+  display: block;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #172337;
+  color: white;
+  display: flex;
+  font-size: 12px;
+}
+
+.footer-1 {
+  display: flex;
+  margin-top: 3vw;
+  margin-left: 5vw;
+}
+
+#about {
+  margin-right: 180px;
+}
+
+#help {
+  margin-right: 200px;
+}
+#mail {
+  margin-right: 250px;
+}
+
+.footer-2 {
+  display: flex;
+  margin-top: 3vw;
+  margin-left: 200px;
+}
+
+.product-img, .query-img{
+  width: 100%;
+  height: 100%;
+}
+
+.detail-img {
+  width: 40vw;
+  height: 30vw;
+}
+
+.seller-image {
+  width: 50%;
+  height: 10vw;
+  background: red;
+  border-radius: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  }
+
+label {
+  font-size: 1rem;
+}
+
+input.form-control, input.form-control:focus {
+  background: #F0F0FF;
+}
+
+#desc {
+  margin-bottom: 1vw;
+  margin-top: -3vw;
+}
+.error {
+  position: absolute;
+  color: red;
+  font-size: .6rem;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .navbar-brand {
+      font-size: 6vw
+    }
+    .product-img {
+      width: 100vw;
+      height: 30vw;
+    }
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+.congo {
+	background: #3da1d1;
+	color: #fff;
+	overflow: hidden;
+  height: 100vh;
+}
+
+
+
+.card {
+  margin-top: 2vh;
+}
+
+#text {
+  margin-left: -2vh;
+}
+
+.container {
+  height: 100%;
+}
+
+/* #company {
+  font-size: 3vh;
+  color: #3da1d1;
+} */
+.house, .sector, .city, .state {
+  margin-left: 2vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: teal;
+}
+
+.only-address {
+  background-color: #F0F0FF;
+
+}
+
+.confirm-address {
+  margin-top: 15vh;
+}
+
+#star {
+  height: 2vh;
+  width: 2vh;
+  margin-left: 0vh;
+}
+
+.ratings {
+  background-color: green;
+  font-size: 2vh;
+  color: white;
+  margin-right: 2vh;
+  margin-left: 3vh;
+}
+
+.rate {
+  margin-top: -1vh;
+  margin-bottom: 1vh;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.fa-edit:hover {
+  color: blue;
+
+}
+
+#seller-img {
+  width: 30vw;
+  margin: 3vh;
+
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.img-edit {
+  margin-top: 25vh;
+}
+
+#myInput {
+  width: 100%;
+  font-size: 2.5vh;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#td-name {
+  max-width: 25vw;
+  width: 25vw;
+}
+#td-price {
+  max-width: 15vw;
+  width: 15vw;
+}
+#td-company {
+  max-width: 20vw;
+  width: 20vw;
+}
+#td-items {
+  max-width: 15vw;
+  width: 15vw;
+}
+#td-category {
+  max-width: 20vw;
+  width: 20vw;
+}
+
+.old-price {
+  margin-top: 0.5vh;
+  color: red;
+  text-decoration: line-through;
+  font-size: 2.2vh;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 3vh;
+  transform: scaleX(0.8);
+  transform: scaleY(1.5);
+  margin-top: 0.3vh;
+}
+
+.off {
+  color: green;
+  margin-top: 0.5vh;
+  font-size: 2.3vh;
+}
+
+#queryDescription {
+  margin-top: 1.5vh;
+  margin-bottom: -2vh;
+  color: #172337;
+}
+
+.congrats {
+	position: absolute;
+	top: 140px;
+	width: 550px;
+	height: 100px;
+	padding: 20px 10px;
+	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+
+.mainDiv {
+  margin-top: 11vh;
+}
+
+.navbar {
+  background-color: #ffcc00;
+  margin-bottom: 100px;
+}
+
+.con {
+	transform-origin: 50% 50%;
+	font-size: 50px;
+	font-family: 'Sigmar One', cursive;
+	cursor: pointer;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.blob {
+	height: 50px;
+	width: 50px;
+	color: #ffcc00;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	z-index: 1;
+	font-size: 30px;
+	display: none;	
+}
